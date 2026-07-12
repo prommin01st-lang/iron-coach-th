@@ -1,5 +1,7 @@
 # 🏋️ Fitness Coach — Thai Weight-Training Q&A (Fine-tuned LLM)
 
+> 🤗 **Model on Hugging Face:** [Petanque/fitness-coach-th](https://huggingface.co/Petanque/fitness-coach-th)
+
 โปรเจกต์เรียนรู้การ **fine-tune LLM** เพื่อสร้างผู้ช่วยตอบคำถามเฉพาะทาง: **โค้ชเวทเทรนนิ่งภาษาไทย** ที่ยึดหลักวิทยาศาสตร์การกีฬา ตอบเรื่อง set/rep, ฟอร์มท่า, โภชนาการ และ **ปฏิเสธคำขอที่อันตราย** (สเตียรอยด์, ลดน้ำหนักสุดโต่ง) พร้อมแนะให้พบผู้เชี่ยวชาญเมื่อเหมาะสม
 
 เทรนบน **RTX 2060 (6GB VRAM)** ด้วย **QLoRA (4-bit)** บน Qwen2.5-1.5B-Instruct
