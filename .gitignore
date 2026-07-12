@@ -1,0 +1,15 @@
+# Python env (ลงใหม่ได้จาก setup/requirements.txt)
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# โมเดล/น้ำหนัก — ไฟล์ใหญ่ สร้างใหม่ได้จากโค้ด หรือโฮสต์บน Hugging Face แทน
+experiments/*/output/          # checkpoints + adapters (retrain ได้)
+experiments/*/merged/          # merged fp16 (merge.py สร้างใหม่ได้)
+experiments/*/merged_untied/
+*.gguf                         # แปลงใหม่ได้ด้วย llama.cpp
+
+# เบ็ดเตล็ด
+*.log
+.DS_Store

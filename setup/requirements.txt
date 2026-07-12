@@ -1,0 +1,13 @@
+# Core fine-tuning stack (ติดตั้งหลังจากติดตั้ง PyTorch CUDA แล้ว)
+transformers>=4.44
+datasets>=2.20
+peft>=0.12          # LoRA / QLoRA adapters
+accelerate>=0.33
+trl>=0.9            # SFTTrainer สำหรับ supervised fine-tuning
+bitsandbytes>=0.43  # 4-bit / 8-bit quantization (ต้องมี CUDA)
+sentencepiece       # tokenizer สำหรับหลายโมเดล
+protobuf
+# เครื่องมือช่วย
+jupyter
+ipywidgets
+tensorboard         # ดู loss curve ระหว่างเทรน

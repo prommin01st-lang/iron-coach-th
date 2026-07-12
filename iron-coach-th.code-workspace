@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "name": "iron-coach-th",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/*.pyc": true,
+      "**/.ipynb_checkpoints": true
+    },
+    "python.analysis.typeCheckingMode": "basic"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-toolsai.jupyter"
+    ]
+  }
+}
