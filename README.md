@@ -17,7 +17,7 @@
 ## 🗂️ โครงสร้าง
 
 ```
-Model Trainer/
+iron-coach-th/
 ├── ROADMAP.md              # แผนเรียนรู้ 5 เฟส
 ├── setup/                  # environment (check_gpu.py, requirements.txt)
 ├── data/                   # dataset (train/val jsonl) + สคริปต์ build
