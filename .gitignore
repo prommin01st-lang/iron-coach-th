@@ -4,11 +4,14 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# โมเดล/น้ำหนัก — ไฟล์ใหญ่ สร้างใหม่ได้จากโค้ด หรือโฮสต์บน Hugging Face แทน
-experiments/*/output/          # checkpoints + adapters (retrain ได้)
-experiments/*/merged/          # merged fp16 (merge.py สร้างใหม่ได้)
+# โมเดล/น้ำหนัก — ไฟล์ใหญ่ สร้างใหม่ได้จากโค้ด หรือโฮสต์บน Hugging Face
+# checkpoints + adapters (retrain ได้)
+experiments/*/output/
+# merged fp16 + untied (merge.py สร้างใหม่ได้)
+experiments/*/merged/
 experiments/*/merged_untied/
-*.gguf                         # แปลงใหม่ได้ด้วย llama.cpp
+# GGUF (แปลงใหม่ได้ด้วย llama.cpp)
+*.gguf
 
 # เบ็ดเตล็ด
 *.log
